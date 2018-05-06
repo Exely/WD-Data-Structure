@@ -73,6 +73,10 @@ int main(){
 				DeQueue(q2,x);
 				cout<<x<<" ";
 				n++;
+			}else if(!QueueEmpty(q1)){
+				DeQueue(q1,x);
+				cout<<x<<" ";
+				n++;
 			}
 		}
 		cout<<endl;
