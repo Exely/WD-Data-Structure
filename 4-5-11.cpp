@@ -120,4 +120,5 @@ void Print_HTree(HTree T,int tag){
     if(tag==2)cout<<T->data<<" ";
     Print_HTree(T->rchild,tag);
     if(tag==3)cout<<T->data<<" ";
+    free(T);
 }

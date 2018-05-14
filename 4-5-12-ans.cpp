@@ -89,4 +89,5 @@ void Print_BST(BST T,int tag){
     if(tag==2)cout<<T->key<<":"<<T->count<<" ";
     Print_BST(T->rchild,tag);
     if(tag==3)cout<<T->key<<":"<<T->count<<" ";
+    free(T);
 }

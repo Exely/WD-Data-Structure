@@ -65,4 +65,5 @@ void Print_BST(BST T,int tag){
     if(tag==2)cout<<T->key<<" ";
     Print_BST(T->rchild,tag);
     if(tag==3)cout<<T->key<<" ";
+    free(T);
 }
